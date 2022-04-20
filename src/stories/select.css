@@ -1,0 +1,28 @@
+.storybook-select{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.storybook-select select {
+    width: 219px;
+    height: 38px;
+    background: #D3DCE7;
+    border-radius: 5px;
+    border:none;
+    padding-left: 8px;
+    color: #07458F;
+    margin-top: 8px;
+    border-right: 8px solid transparent;
+
+    /* replace arrow */
+    /* appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; */
+}
+
+.storybook-select--disabled select{
+    color:#8C97A3;
+}

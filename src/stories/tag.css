@@ -1,0 +1,17 @@
+.storybook-tag{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    padding: 6px 8px;
+
+    border-radius: 80px;
+    background: #FFD947;
+    color:white;
+}

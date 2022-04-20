@@ -1,0 +1,17 @@
+.storybook-icon-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FFD947;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    outline:none;
+}
+
+.storybook-icon-button img{
+    width:31.5px;
+    height:31.5px;
+}

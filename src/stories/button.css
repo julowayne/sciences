@@ -6,8 +6,9 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  background-color: #2474D3;
 }
-.storybook-button--primary {
+/* .storybook-button--primary {
   color: white;
   background-color: #1ea7fd;
 }
@@ -15,16 +16,46 @@
   color: #333;
   background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-}
+} */
 .storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
+  width: 85px;
+  height: 30px;
+  border-radius: 100px;
+  padding: 8px 24px;
+
+  /* text */
+  color:white;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
 }
 .storybook-button--medium {
+  width: 131px;
+  height: 30px;
+  border-radius: 100px;
+  padding: 8px 24px;
+
+  /* text */
+  color:white;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
-  padding: 11px 20px;
+  line-height: 14px;
 }
 .storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+  width: 208px;
+  height: 30px;
+  border-radius: 100px;
+  padding: 8px 24px;
+
+  /* text */
+  color:white;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
 }
