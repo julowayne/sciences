@@ -21,6 +21,15 @@
           description="Vos enfants découvrirons à travers 6 décors s'inspirant du monde industriel l'histoire de la pièce mythique de notre dressing et les étapes de sa fabrication." 
 
         />
+        <my-card-parcours
+          backgroundColor="#FFD947"
+          label="Le fonctionnement du cerveau" 
+          time="45min à 1h"
+          tag="Technologies"
+          age="8"
+          description="A travers différents jeux et expériences vos enfants apprendront le fonctionnement du cerveau et tesreront leurs capacités." 
+
+        />
       </div>
     </div>
     <div class="storybook-page-alert">
@@ -63,6 +72,14 @@
           label="Les petits chercheurs"
           tag="2 enfants + 1 adulte"
           price="70"
+          validity="pour 2 enfants et 1 adulte"
+          age="de 4 à 18 ans"
+          :list="list[2]"
+        />
+        <my-card-subscribe 
+          label="Les petits savants"
+          tag="2 enfants + 1 adulte"
+          price="90"
           validity="pour 2 enfants et 1 adulte"
           age="de 4 à 18 ans"
           :list="list[2]"
