@@ -1,69 +1,84 @@
-section {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  padding: 48px 20px;
-  margin: 0 auto;
-  max-width: 600px;
-  color: #333;
+.storybook-page-section > h1{
+  background-color: #063B7A;
+  color:white;
+  font-family: 'Jura';
+  font-weight:700;
+  font-size: 34px;
+  padding: 7px 14px;
+  margin:0;
 }
 
-section h2 {
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 1;
-  margin: 0 0 4px;
-  display: inline-block;
-  vertical-align: top;
+.storybook-page-section > p.description{
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size:16px;
 }
 
-section p {
-  margin: 1em 0;
+.storybook-page-cards {
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: space-evenly;
+  margin-bottom:50px;
 }
 
-section a {
-  text-decoration: none;
-  color: #1ea7fd;
+.storybook-page-section .small-text{
+  font-family: 'Quicksand';
+  font-size: 12px;
+  font-weight:500;
 }
 
-section ul {
-  padding-left: 30px;
-  margin: 1em 0;
+.select-list{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
-section li {
-  margin-bottom: 8px;
+.search-button{
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 9px;
+  align-self: flex-end;
+  height:38px;
 }
 
-section .tip {
-  display: inline-block;
-  border-radius: 1em;
-  font-size: 11px;
-  line-height: 12px;
-  font-weight: 700;
-  background: #e7fdd8;
-  color: #66bf3c;
-  padding: 4px 12px;
-  margin-right: 10px;
-  vertical-align: top;
+.storybook-page-cards:last-child{
+  justify-content: space-between;
 }
 
-section .tip-wrapper {
-  font-size: 13px;
-  line-height: 20px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+.storybook-page-alert{
+  background-color: #FF2E4D;
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  color:white;
+  padding: 20px 10px;
+  margin-bottom: 30px;
 }
 
-section .tip-wrapper svg {
-  display: inline-block;
-  height: 12px;
-  width: 12px;
-  margin-right: 4px;
-  vertical-align: top;
-  margin-top: 3px;
+.storybook-page-alert div:first-child{
+  width: 15%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 
-section .tip-wrapper svg path {
-  fill: #1ea7fd;
+.storybook-page-alert div:last-child{
+  width:85%;
+}
+
+.storybook-page-alert h1{
+  font-weight:700;
+  font-size:22px;
+  margin:0;
+  padding:0;
+  font-family: 'Jura';
+}
+
+.storybook-page-alert p{
+  font-weight:500;
+  font-size: 16px;
+  margin:0;
+  padding:0;
+  font-family: 'Quicksand';
 }

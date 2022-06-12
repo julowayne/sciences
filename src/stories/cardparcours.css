@@ -1,0 +1,45 @@
+.storybook-card-square{
+    width:354px;
+    /* height: 375px; */
+    background-color: rgb(49, 49, 49);
+    border-radius: 15px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding: 80px 24px;
+    /* display:flex;
+    flex-flow: column nowrap; */
+    color:white;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size:13px;
+}
+
+.storybook-card-square h1{
+    margin:0 0 20px 0;
+    font-weight:700;
+    font-size:30px;
+    font-family: 'Jura';
+}
+
+.storybook-card-square img{
+    margin-right:8px;
+}
+
+.storybook-card-square .infos{
+    margin-top:10px;
+    margin-bottom:40px;
+    font-weight: 500;
+    font-size:14px;
+}
+
+.storybook-card-square .button{
+    margin-top:40px;
+}
+
+/* .storybook-card-parcours-background {
+    position: relative;
+    z-index: 0;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+} */
